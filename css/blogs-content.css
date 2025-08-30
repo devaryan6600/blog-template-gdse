@@ -1,0 +1,68 @@
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:1em;
+    box-shadow: -1px 5px 94px -8px rgba(0,0,0,0.27);
+    -webkit-box-shadow: -1px 5px 94px -8px rgba(0,0,0,0.27);
+    -moz-box-shadow: -1px 5px 94px -8px rgba(0,0,0,0.27);
+
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+.heading .img-wrapper{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+}
+.heading img{
+    width: 100%;
+}
+.heading h1{
+    padding: 2em;
+    display: block;
+}
+
+.content{
+    padding: 2em;
+    line-height: 1.6em;
+    border-bottom: 1px solid lightgrey;
+}
+.content p{
+    margin-bottom: 1rem;
+}
+.comments{
+    margin-top: 2em;
+}
+.comments .input-box{
+    width: 100%;
+    display: flex;
+    padding: 1em;
+}
+.comments .input-box input[type="text"]{
+    padding: 1em;
+    flex: 0.9;
+    border: none;
+    border-bottom: 1px solid  rgb(7, 204, 204);
+    outline: none;
+}
+.comments .input-box input[type="submit"]{
+    flex: 0.1;
+    background: none;
+    color: rgb(7, 204, 204);
+    outline: none;
+    border: none;
+    border: 1px solid  rgb(7, 204, 204);
+    cursor: pointer;
+    transition: 0.5s;
+    border-top-right-radius: 100em;
+    border-bottom-right-radius: 100em;
+    border-bottom-left-radius: 100em;
+}
+.comments .input-box input[type="submit"]:hover{
+    background:rgb(7, 204, 204);
+    color: white;
+}
